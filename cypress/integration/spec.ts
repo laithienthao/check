@@ -93,11 +93,9 @@ describe('Test App Chicken', () => {
         this.name = personname
       }
     }
-    class Employee extends Person {
-      private department: string
-      constructor(name1: string, department: string) {
-        super(name1)
-        this.department = department
+    class Employee extends Person {      
+      constructor(name1: string, private department: string) {
+        super(name1)        
       }
       public getE() {
         return `My name is ${this.name} and in ${this.department}`
