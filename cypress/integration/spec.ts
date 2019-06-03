@@ -125,6 +125,7 @@ describe('Test App Chicken', () => {
       }
     }
 
+    //add comment
     let toi = new Employee('thao', 'lai', 'HVN')
     console.log(toi.get())
     console.log(toi.Firstname)
